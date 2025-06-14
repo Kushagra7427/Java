@@ -1,0 +1,15 @@
+class Arithmetic{
+    public static void main(String[] args) {
+      //variable
+      int a = 10;
+      int b = 25;
+      int sum = a + b;
+      System.out.println(sum);
+      int mul = a * b;
+      System.out.println(mul);
+      int sub = b - a;
+      System.out.println(sub);
+      int div = b / a;
+      System.out.println(div);
+    }
+}
