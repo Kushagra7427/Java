@@ -1,0 +1,13 @@
+class Variables{
+    public static void main(String[] args) {
+      //variable
+      String name = "Kushagra Pandey";
+      int age = 22;
+      double price = 25.25;
+      int a = 25;
+      int b = 10;
+      //changing declared variable values
+      b = 20;
+      name = "Lucky";
+    }
+}
