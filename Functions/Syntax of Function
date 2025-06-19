@@ -1,0 +1,7 @@
+package Functions;
+
+public class Functions {
+    returnType functionName(type arg1, type arg2 .....){
+        //operations
+    }
+}
