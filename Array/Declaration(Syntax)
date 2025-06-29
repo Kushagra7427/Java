@@ -1,0 +1,8 @@
+type [] arrayName = new type[size];
+
+            or
+
+type arrayName[] = new type[size];
+
+For Example:
+int [] marks = new int[3];
