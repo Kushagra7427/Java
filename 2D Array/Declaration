@@ -1,0 +1,11 @@
+package 2D Array;
+
+public class Declaration {
+
+    type [][] arrayName = new type[row][columns];
+
+    For Example:
+
+    int [][] numbers = new int[3][5];
+    
+}
