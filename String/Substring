@@ -1,0 +1,11 @@
+package String;
+
+public class Sub {
+    public static void main(String[] args) {
+        //substring
+        String Sentence = "My name is Kushagra";
+        String name= Sentence.substring(11,Sentence.length());
+        System.out.println(name);
+    }
+    
+}
