@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class Tlinear {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number of rows and columns");
+        int r = sc.nextInt();
+        int c = sc.nextInt();
+        int n[][]=new int[r][c];
+        System.out.println("Enter values in the array");
+        for(int i=0;i<r;i++){
+            for(int j=0;j<c;j++){
+                n[i][j]=sc.nextInt();
+            }
+        }
+        System.out.println("Enter number to be searched");
+        int x=sc.nextInt();
+            for(int i=0;i<r;i++){
+                for(int j=0;j<c;j++){
+                    if (n[i][j]==x) {
+                        System.out.println("x found at locations at ("+i+","+j+")");
+                        
+                    }
+                }
+            }
+        }
+    }
+    
