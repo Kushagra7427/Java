@@ -1,0 +1,13 @@
+package String;
+
+public class Concatenation {
+    public static void main(String[] args) {
+        //Concatenation
+        String firstName = "Kushagra";
+        String lastName = "Pandey";
+        String fullName = firstName +" "+lastName;
+        System.out.println(fullName);
+
+    }
+    
+}
