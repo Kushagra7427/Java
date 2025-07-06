@@ -1,0 +1,9 @@
+package String;
+
+public class dest {
+
+    String name = "Kushagra";
+    String fullName = "Kushagra Pandey";
+    String sentence ="My name is Kushagra Pandey";
+    
+}
