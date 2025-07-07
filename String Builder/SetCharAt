@@ -1,0 +1,14 @@
+import java.util.*;
+
+public class st {
+    public static void main(String[] args) {
+        StringBuilder sb = new StringBuilder("Kushagra");
+        System.out.println(sb);
+
+        //set Char at index 0
+        sb.setCharAt(0,'U');
+        System.out.println(sb);
+    }
+    
+}
+
