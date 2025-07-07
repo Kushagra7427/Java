@@ -1,0 +1,14 @@
+import java.util.*;
+
+public class In {
+    public static void main(String[] args) {
+        StringBuilder sb = new StringBuilder("Kushagra");
+        System.out.println(sb);
+
+        //Insert Char at index 0
+        sb.insert(0,'S');
+        System.out.println(sb);
+    }
+    
+}
+
