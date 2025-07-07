@@ -1,0 +1,17 @@
+import java.util.*;
+
+public class Appen {
+    public static void main(String[] args) {
+        StringBuilder sb = new StringBuilder("K");
+        sb.append("u");
+        sb.append("s");
+        sb.append("h");
+        sb.append("a");
+        sb.append("g");
+        sb.append("r");
+        sb.append("a");
+        System.out.println(sb);
+    }
+    
+}
+
