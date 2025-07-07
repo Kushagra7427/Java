@@ -1,0 +1,14 @@
+import java.util.*;
+
+public class Del {
+    public static void main(String[] args) {
+        StringBuilder sb = new StringBuilder("Kushagra");
+        System.out.println(sb);
+
+        //delete 
+        sb.delete(2, 8);
+        System.out.println(sb);
+    }
+    
+}
+
