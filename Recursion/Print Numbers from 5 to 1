@@ -1,0 +1,15 @@
+import java.util.*;
+public class Desnum {
+
+    public static void printNumb(int n){
+        if (n==0) { //Base Case
+            return;  
+        }
+        System.out.println(n); // Print
+        printNumb(n-1);// Recursion
+    }
+    public static void main(String[] args) {
+        int n=5;
+        printNumb(n); //n=5
+    }
+}
