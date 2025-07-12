@@ -1,0 +1,15 @@
+import java.util.*;
+public class Ascnum {
+
+    public static void printNumb(int n){
+        if (n==6) { //Base Case
+            return;  
+        }
+        System.out.println(n); // Print
+        printNumb(n+1);// Recursion
+    }
+    public static void main(String[] args) {
+        int n=1;
+        printNumb(n); //n=1
+    }
+}
