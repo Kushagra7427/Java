@@ -1,0 +1,25 @@
+import java.util.HashSet;
+import java.util.Set;
+public class Uniques{
+    public static void subsequences(String str,int idx,String newString,HashSet<String>Set){
+    if (idx==str.length()) {
+        if (Set.contains(newString)) {
+            return;
+        }else{
+        System.out.println(newString);
+        Set.add(newString);
+        return;        
+    }
+}
+    char CurrChar=str.charAt(idx);
+    // to be
+    subsequences(str,idx+1,newString+CurrChar,Set);
+    // or not to be
+    subsequences(str,idx+1,newString,Set);
+}
+public static void main(String[] args) {
+    String str="aaa";
+    HashSet<String>Set=new HashSet<>();
+    subsequences(str,0,"",Set);
+}
+}
