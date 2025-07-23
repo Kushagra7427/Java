@@ -1,0 +1,23 @@
+import java.util.*;
+public class Duplicates {
+    public static boolean map[] =new boolean[26];
+    public static void removeDuplicates(String str, int idx, String newString){
+        if(idx==str.length()){
+        System.out.println(newString);
+        return;
+    }
+        char CurrChar=str.charAt(idx);
+        if(map[CurrChar-'a']){
+            removeDuplicates(str, idx+1, newString);
+        } else{
+            newString+=CurrChar;
+            map[CurrChar-'a']=true;
+            removeDuplicates(str, idx+1, newString);
+        }
+    }
+    public static void main(String[] args) {
+        String str="abbccda";
+        removeDuplicates(str, 0, "");
+    }
+    }
+    
